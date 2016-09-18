@@ -38,5 +38,6 @@
 	<modules>
 		<module>test</module>
     <module>rabbitmq</module>
-  </modules>
+    <module>redis</module>
+	</modules>
 </project>
