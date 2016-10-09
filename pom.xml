@@ -101,7 +101,7 @@
 	</dependencies>
 	<modules> 
 		<module>test-redis</module>
-		<module>test-rabbitmq</module>
+ 	<!-- 	<module>test-rabbitmq</module> -->
 		<module>test-mogodb</module>
 		<module>test-netty</module>
 		<module>test-maven</module>
