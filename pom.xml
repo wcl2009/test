@@ -7,7 +7,7 @@
 	<artifactId>test</artifactId>
 	<version>0.0.1</version>
 	<packaging>pom</packaging>
-
+ 
 	<name>test</name>
 	<url>http://maven.apache.org</url>
 
@@ -20,7 +20,6 @@
 		<slf4j.version>1.7.7</slf4j.version>
 		<jackson.version>2.7.3</jackson.version>
 		<aspectj.version>1.8.9</aspectj.version>
-		
 	</properties>
 
 	<dependencies>
@@ -36,7 +35,7 @@
 			<version>${log4j.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>commons-collections</groupId>
+			<groupId>commons-collections</groupId>  
 			<artifactId>commons-collections</artifactId>
 			<version>${common-collection.version}</version>
 		</dependency>
@@ -59,12 +58,8 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-beans</artifactId>
 			<version>${spring.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-context-support</artifactId>
-			<version>${spring.version}</version>
-		</dependency>
+		</dependency> 
+	
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-aop</artifactId>
@@ -96,14 +91,15 @@
 			<artifactId>jackson-annotations</artifactId>
 			<version>${jackson.version}</version>
 		</dependency>
-
+ 
+ 
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjweaver</artifactId>
 			<version>${aspectj.version}</version>
 		</dependency>
 	</dependencies>
-	<modules>
+	<modules> 
 		<module>test-redis</module>
 		<module>test-rabbitmq</module>
 		<module>test-mogodb</module>
